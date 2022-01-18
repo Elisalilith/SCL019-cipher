@@ -1,0 +1,170 @@
+
+
+body{
+  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: rgb(17, 17, 17);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    background-image: url('images/letrastop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+#mensaje{
+    display: none;
+    border:0;
+    font-size: 350%;
+    color:gold; 
+    background-color: transparent;
+    align-content: center;
+}
+
+h1 {
+    color:rgb(253, 213, 145) ;
+    font-size: 350%;
+ }
+
+
+h2 {
+    font-size: small;
+    font-weight: lighter;
+}  
+
+
+h3 {
+   font-weight: 600;
+  }
+
+.seccionPreguntas{
+    justify-content: center;
+margin-left: 10%;
+}
+
+
+div.p1 {
+    float: left;
+    margin:20px;
+    background-color: rgb(58, 53, 40);
+    border-radius: 5%;
+    padding: 2%;  
+}
+
+div.p2{
+    float: left;
+   margin: 20px;
+   background-color: rgb(58, 53, 40);
+   border-radius: 5%;
+   padding: 2%; 
+}
+
+div.p3 {
+    float: left;
+    margin: 20px;
+    background-color: rgb(58, 53, 40);
+    border-radius: 5%;
+    padding: 2%; 
+}
+
+div.p4 {
+    float: left;
+    margin:20px;
+    background-color: rgb(58, 53, 40);
+    border-radius: 5%;
+    padding: 2%;
+}
+
+div.p5{
+    float: left;
+   margin: 20px;
+   background-color: rgb(58, 53, 40);
+   border-radius: 5%;
+   padding: 2%; 
+}
+
+div.p6 {
+    float: left;
+    margin: 20px;
+    background-color: rgb(58, 53, 40);
+    border-radius: 5%;
+    padding: 2%;  
+}
+
+.cajasRespuestas {
+   display: flex;
+    margin: 2%;
+    justify-content: center;
+    padding: 20px;
+}
+
+#cajaNumero {
+    align-content: left;
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    }
+
+
+
+a{
+   color: white;
+}   
+a:hover{
+     color:rgb(253, 213, 145);
+  }
+     
+
+#spTotal{
+    border-radius: 5px;
+}
+
+.botonCifrado {
+    
+    padding: 15px 150px;
+    background:whitesmoke;
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;   
+    justify-content: center;
+    margin-right:2%;
+}
+
+.botonDescifrado:hover {
+    background-color:rgb(253, 213, 145);
+    color: black;
+  }    
+
+  
+.botonDescifrado {
+    padding: 15px 150px;
+    background:whitesmoke;
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;   
+    justify-content: center;
+    margin-right:2%;
+}
+
+ .botonCifrado:hover {
+  background-color:rgb(253, 213, 145);
+  color: black;
+}    
+
+
+#mensaje2{
+    border: 0;
+    font-size: 350%;
+    color:rgb(253, 213, 145);
+    background-color: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    margin-left: 8%;
+
+}

@@ -1,0 +1,39 @@
+body{
+  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: rgb(17, 17, 17);
+    margin: 10%;
+    background-image: url('images/letrasPortada.png');
+    background-repeat: no-repeat;
+    background-size: 50%;
+  }
+
+.logo {
+    float:right;
+margin-right: 80px;
+}
+
+  h1 {
+    font-size: 150%;
+    text-align: center;
+    margin-left: 55%;
+    margin-top: 10%;
+}  
+
+.botonindex1 {
+    padding: 15px 150px;
+    background:whitesmoke;
+    color: black;
+    border-radius: 25px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;   
+    margin-left: 65%; 
+    margin-top: 150%;
+}
+
+ .botonindex1:hover {
+  background-color:rgb(253, 213, 145);
+  color: black;
+}
